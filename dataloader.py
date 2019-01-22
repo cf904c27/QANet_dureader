@@ -14,7 +14,7 @@ def word_tokenize(sent):
         tokens = sent
         return [token for token in tokens if len(token) >= 1]
     else:
-        tokens = jieba.lcut(sent))
+        tokens = jieba.lcut(sent)
         return [token for token in tokens if len(token) >= 1]
 
 
